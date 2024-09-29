@@ -1,0 +1,75 @@
+.container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 12px;
+    color: black;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: #007bff;
+    max-width: 800px;
+    
+
+    background: rgba(255, 255, 255, 0.5); /* More transparency */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+    backdrop-filter: blur(10px); /* Optional for a blur effect */
+  
+}
+
+.input {
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.button {
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.dataContainer {
+    text-align: left;
+    display: inline-block;
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputContainer {
+    margin-top: 20px;
+}
+
+.error {
+    color: #d9534f;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.result {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #28a745;
+}
