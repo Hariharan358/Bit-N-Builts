@@ -1,0 +1,108 @@
+/* DocumentUpload.css */
+
+body {
+  background-color: #0e0e0e;/* Elegant gradient background for the body */
+  font-family: 'Arial', sans-serif; 
+  color: #0e0e0e;/* Font family for the entire page */
+}
+h2{
+  color: #0e0e0e;
+}
+.txt{
+  color: #0e0e0e;
+  margin-left: 200px;
+}
+/* Container for the upload form */
+.upload-container {
+  max-width: 1000px;
+  height: auto; /* Set maximum width for the container */
+  margin: 3rem auto;
+   /* Center the container with vertical margins */
+  padding: 2.5rem; /* Add padding inside the container */
+  border-radius: 15px; /* Rounded corners */
+  background: rgb(248, 247, 247); /* White background for the container */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Strong shadow for depth */
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-right: 100px; 
+  padding-right: 300px;/* Smooth transition for effects */
+}
+
+.upload-container:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+h2 {
+  text-align: center; /* Center the heading */
+  color: #333; /* Darker text color */
+  font-size: 2.5rem; /* Larger font size */
+  margin-bottom: 1.5rem; /* Space below the heading */
+  font-weight: bold; /* Bold font */
+}
+
+p {
+  text-align: center; /* Center the logged-in user information */
+  font-size: 1.2rem; /* Slightly larger font size */
+  color: #666; /* Lighter text color */
+  margin-bottom: 1rem; /* Space below the paragraph */
+}
+
+.input-group {
+  margin-bottom: 1.5rem; /* Space between input groups */
+}
+
+.input-group label {
+  display: block; /* Block display for labels */
+  margin-bottom: 0.5rem; /* Space below labels */
+  font-weight: bold; /* Bold font for labels */
+  color: #444;
+  margin-right: 200px; /* Darker label color */
+}
+
+.input-group input {
+  width: 100%; /* Full width for input fields */
+  padding: 14px; /* Padding inside input fields */
+  border: 2px solid #007bff; /* Primary color border */
+  border-radius: 8px; /* Rounded corners for input fields */
+  font-size: 1rem; /* Font size for input text */
+  transition: border-color 0.3s, box-shadow 0.3s;
+  margin-left: 100px; /* Smooth transition for border color */
+}
+
+.input-group input:focus {
+  outline: none; /* Remove outline on focus */
+  border-color: #0056b3; /* Darker border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
+}
+
+.upload-button {
+  width: 100%; /* Full width for the button */
+  padding: 12px; /* Padding inside the button */
+  border: none; /* No border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #28a745; /* Success color for button */
+  color: white; /* White text color */
+  font-size: 1rem; /* Font size for button text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, transform 0.2s;
+  margin-left: 100px; /* Smooth transition for background color */
+}
+
+.upload-button:hover {
+  background-color: #218838; /* Darker green on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.message {
+  text-align: center; /* Center the message */
+  margin-top: 1rem; /* Space above the message */
+  font-size: 1rem; /* Font size for message */
+  color: #28a745; /* Success color for the message */
+}
+
+.error-message {
+  text-align: center; /* Center the error message */
+  margin-top: 1rem; /* Space above the error message */
+  font-size: 1rem; /* Font size for error message */
+  color: #dc3545; /* Danger color for the error message */
+}
